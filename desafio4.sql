@@ -1,1 +1,1 @@
-SELECT COUNT(product_name) AS 'Qtd Produtos' FROM northwind.products;
+SELECT COUNT(product_name) FROM northwind.products;
