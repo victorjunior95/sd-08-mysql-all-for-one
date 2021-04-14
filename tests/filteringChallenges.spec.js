@@ -64,7 +64,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe('13 - Mostre o `supplier_id` das `purchase_orders` em que o `supplier_id` seja 1 ou 3.', () => {
+  describe.skip('13 - Mostre o `supplier_id` das `purchase_orders` em que o `supplier_id` seja 1 ou 3.', () => {
     it('Verifica o desafio13', async () => {
       const challengeQuery = readFileSync('desafio13.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult13');
@@ -73,7 +73,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe('14 - Mostre os `supplier_id` da `purchase_orders` em que o `supplier_id` seja de 1 a 3, incluindo tanto o 1 quanto o 3.', () => {
+  describe.skip('14 - Mostre os `supplier_id` da `purchase_orders` em que o `supplier_id` seja de 1 a 3, incluindo tanto o 1 quanto o 3.', () => {
     it('Verifica o desafio14', async () => {
       const challengeQuery = readFileSync('desafio14.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult14');
@@ -82,7 +82,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe('15 - Mostre somente as horas (sem os minutos e os segundos) da `submitted_date` de todos registros de `purchase_orders`. Chame essa coluna de `submitted_hour`.', () => {
+  describe.skip('15 - Mostre somente as horas (sem os minutos e os segundos) da `submitted_date` de todos registros de `purchase_orders`. Chame essa coluna de `submitted_hour`.', () => {
     it('Verifica o desafio15', async () => {
       const challengeQuery = readFileSync('desafio15.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult15');
@@ -91,7 +91,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe('16 - Exiba a `submitted_date` das `purchase_orders` que estão entre `2006-01-26 00:00:00` e `2006-03-31 23:59:59`.', () => {
+  describe.skip('16 - Exiba a `submitted_date` das `purchase_orders` que estão entre `2006-01-26 00:00:00` e `2006-03-31 23:59:59`.', () => {
     it('Verifica o desafio16', async () => {
       const challengeQuery = readFileSync('desafio16.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult16');
@@ -102,7 +102,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe('17 - Mostre os registros das colunas `id` e `supplier_id` das `purchase_orders` em que os `supplier_id` sejam tanto 1, ou 3, ou 5, ou 7.', () => {
+  describe.skip('17 - Mostre os registros das colunas `id` e `supplier_id` das `purchase_orders` em que os `supplier_id` sejam tanto 1, ou 3, ou 5, ou 7.', () => {
     it('Verifica o desafio17', async () => {
       const challengeQuery = readFileSync('desafio17.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult17');
@@ -111,7 +111,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe('18 - Mostre todos os registros de `purchase_orders` que tem o `supplier_id` igual a 3 e `status_id` igual a 2.', () => {
+  describe.skip('18 - Mostre todos os registros de `purchase_orders` que tem o `supplier_id` igual a 3 e `status_id` igual a 2.', () => {
     it('Verifica o desafio18', async () => {
       const challengeQuery = readFileSync('desafio18.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult18');
@@ -122,7 +122,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe('19 - Mostre a quantidade de pedidos que foram feitos na tabela `orders` pelo `employee_id` igual a 5 ou 6, e que foram enviados através do método `shipper_id` igual a 2. Chame a coluna de orders_count.', () => {
+  describe.skip('19 - Mostre a quantidade de pedidos que foram feitos na tabela `orders` pelo `employee_id` igual a 5 ou 6, e que foram enviados através do método `shipper_id` igual a 2. Chame a coluna de orders_count.', () => {
     it('Verifica o desafio19', async () => {
       const challengeQuery = readFileSync('desafio19.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult19');
