@@ -1,1 +1,2 @@
-SELECT product_name FROM northwind.products;
+SELECT product_name AS 'Nome do produto' 
+FROM northwind.products Produtos;
