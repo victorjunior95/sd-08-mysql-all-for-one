@@ -1,2 +1,2 @@
 select count(*) from northwind.orders
-where shipper_id =2;
+where employee_id in(5,6) and shipper_id = 2;
