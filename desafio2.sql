@@ -1,0 +1,1 @@
+SELECT * FROm northwind.products;
