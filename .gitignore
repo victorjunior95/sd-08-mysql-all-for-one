@@ -1,3 +1,9 @@
 # VSCode repo settings
 .vscode
 node_modules/
+
+# Automatizador de arquivos
+_templates
+
+# Instruções
+instrucoes-test.txt
