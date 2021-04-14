@@ -1,1 +1,1 @@
-select * from northwind.products ORDER BY id desc LIMIT 5;
+select id from northwind.products ORDER BY id desc LIMIT 5;
