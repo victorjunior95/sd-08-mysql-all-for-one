@@ -64,7 +64,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe.skip('13 - Mostre o `supplier_id` das `purchase_orders` em que o `supplier_id` seja 1 ou 3.', () => {
+  describe('13 - Mostre o `supplier_id` das `purchase_orders` em que o `supplier_id` seja 1 ou 3.', () => {
     it('Verifica o desafio13', async () => {
       const challengeQuery = readFileSync('desafio13.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult13');
@@ -73,7 +73,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe.skip('14 - Mostre os `supplier_id` da `purchase_orders` em que o `supplier_id` seja de 1 a 3, incluindo tanto o 1 quanto o 3.', () => {
+  describe('14 - Mostre os `supplier_id` da `purchase_orders` em que o `supplier_id` seja de 1 a 3, incluindo tanto o 1 quanto o 3.', () => {
     it('Verifica o desafio14', async () => {
       const challengeQuery = readFileSync('desafio14.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult14');
@@ -82,7 +82,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe.skip('15 - Mostre somente as horas (sem os minutos e os segundos) da `submitted_date` de todos registros de `purchase_orders`. Chame essa coluna de `submitted_hour`.', () => {
+  describe('15 - Mostre somente as horas (sem os minutos e os segundos) da `submitted_date` de todos registros de `purchase_orders`. Chame essa coluna de `submitted_hour`.', () => {
     it('Verifica o desafio15', async () => {
       const challengeQuery = readFileSync('desafio15.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult15');
@@ -91,7 +91,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe.skip('16 - Exiba a `submitted_date` das `purchase_orders` que estão entre `2006-01-26 00:00:00` e `2006-03-31 23:59:59`.', () => {
+  describe('16 - Exiba a `submitted_date` das `purchase_orders` que estão entre `2006-01-26 00:00:00` e `2006-03-31 23:59:59`.', () => {
     it('Verifica o desafio16', async () => {
       const challengeQuery = readFileSync('desafio16.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult16');
