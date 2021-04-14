@@ -1,2 +1,2 @@
 SELECT notes FROM northwind.purchase_orders
-WHERE notes LIKE BETWEEN '%30' AND '%39';
+WHERE notes LIKE '%3_';
