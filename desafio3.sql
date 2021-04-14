@@ -1,1 +1,1 @@
-SELECT np.supplier_ids FROM northwind.products AS np;
+SELECT np.id FROM northwind.products AS np;
