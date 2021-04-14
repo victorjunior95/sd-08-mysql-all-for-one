@@ -218,7 +218,7 @@ Monte queries para encontrar as informações esperadas pelos desafios:
 
 ## Desafios Iniciais
 
-#### 1 - Exiba apenas os nomes do produtos na tabela `products`.
+#### 1 - Exiba apenas os nomes dos produtos na tabela `products`.
 
 #### 2 - Exiba os dados de todas as colunas da tabela `products`.
 
