@@ -1,3 +1,1 @@
-SELECT id FROM northwind.products
-LIMIT 5 OFFSET ((SELECT COUNT(id) FROM northwind.products) - 5)
-ORDER BY id;
+SELECT id FROM northwind.products LIMIT 5 ORDER BY id DESC;
