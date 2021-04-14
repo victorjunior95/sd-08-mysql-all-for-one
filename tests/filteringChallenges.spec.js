@@ -5,7 +5,7 @@ const Importer = require('mysql-import');
 describe('Desafios sobre filtragem de dados', () => {
   let sequelize;
 
-  beforeAll(async () => {
+  beforeAll.only(async () => {
     const importer = new Importer(
       { user: process.env.MYSQL_USER, password: process.env.MYSQL_PASSWORD, host: process.env.HOSTNAME }
     );
