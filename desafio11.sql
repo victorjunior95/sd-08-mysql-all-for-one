@@ -1,1 +1,1 @@
-SELECT notes FROM northwind.purchase_orders WHERE notes BETWEEN (notes LIKE '%30') AND (notes LIKE '%39');
+SELECT notes FROM northwind.purchase_orders WHERE notes BETWEEN "Purchase generated based on Order #30" AND "Purchase generated based on Order #39"
