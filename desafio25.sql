@@ -1,1 +1,1 @@
-DELETE * FROM northwind.order_details WHERE unity_price < 10.0000;
+DELETE FROM northwind.order_details WHERE unity_price < 10.0000;
