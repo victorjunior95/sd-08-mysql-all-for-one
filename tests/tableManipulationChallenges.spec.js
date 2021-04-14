@@ -84,7 +84,7 @@ describe('Desafios de manipulação de tabelas', () => {
     });
   });
 
-  describe.skip('Queries de atualização', () => {
+  describe('Queries de atualização', () => {
     const countOrderDetailsByDiscountQuery = (discount) =>
       `SELECT COUNT(*) AS details_count FROM order_details WHERE discount = ${discount};`;
 
