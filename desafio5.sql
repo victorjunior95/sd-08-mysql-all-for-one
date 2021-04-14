@@ -1,1 +1,1 @@
-SELECT np.product_name FROM northwind.products AS np LIMIT 10 OFFSET 3;
+SELECT product_name FROM northwind.products LIMIT 10 OFFSET 3;

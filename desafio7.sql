@@ -1,1 +1,1 @@
-SELECT np.id, np.product_name FROM northwind.products AS np ORDER BY np.id DESC LIMIT 5;
+SELECT id, product_name FROM northwind.products ORDER BY id DESC LIMIT 5;
