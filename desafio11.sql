@@ -1,3 +1,3 @@
-SELECT *
-FROM purchase_orders
-WHERE notes BETWEEN '%30' AND '%39';
+SELECT notes
+FROM northwind.purchase_orders
+WHERE notes LIKE 'Purchase generated based on Order #3_';
