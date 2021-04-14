@@ -1,0 +1,4 @@
+
+> sd-0x-mysql-all-for-one@1.0.0 test
+> jest --runInBand
+
