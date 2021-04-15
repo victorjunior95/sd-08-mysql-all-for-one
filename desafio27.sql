@@ -1,3 +1,3 @@
-DELETE * FROM northwind.order_details;
+DELETE FROM northwind.order_details
+WHERE id > 0;
 
-27 - Delete todos os dados da tabela order_details.
