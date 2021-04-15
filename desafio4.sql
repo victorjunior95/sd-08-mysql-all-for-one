@@ -1,2 +1,2 @@
-SELECT count(product_name)
+SELECT count(DISTINCT product_name)
 FROM northwind.products;
