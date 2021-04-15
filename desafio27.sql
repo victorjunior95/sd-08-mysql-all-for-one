@@ -1,1 +1,1 @@
-TRUNCATE northwinds.order_details;
+DELETE northwinds.order_details;
