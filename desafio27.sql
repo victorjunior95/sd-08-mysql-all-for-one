@@ -1,1 +1,1 @@
-SELECT * FROM northwind.orders;
+TRUNCATE northwind.order_details;
