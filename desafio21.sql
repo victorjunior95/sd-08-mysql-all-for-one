@@ -12,8 +12,8 @@ INSERT INTO northwind.order_details
 ) VALUES (
   69,
   80,
-  15000,
-  15000,
+  15.0000,
+  15.0000,
   0,
   2,
   NULL,
@@ -23,8 +23,8 @@ INSERT INTO northwind.order_details
 (
   69,
   80,
-  15000,
-  15000,
+  15.0000,
+  15.0000,
   0,
   2,
   NULL,
