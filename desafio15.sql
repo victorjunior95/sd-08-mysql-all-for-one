@@ -2,5 +2,7 @@
 submitted_date de todos registros de purchase_orders. Chame essa coluna de
 submitted_hour. */
 
-SELECT HOUR(submitted_date) AS submitted_hour
-FROM northwind.purchase_orders;
+SELECT 
+    HOUR(submitted_date) AS submitted_hour
+FROM
+    northwind.purchase_orders;
