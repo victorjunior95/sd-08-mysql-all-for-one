@@ -82,7 +82,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe.only('15 - Mostre somente as horas (sem os minutos e os segundos) da `submitted_date` de todos registros de `purchase_orders`. Chame essa coluna de `submitted_hour`.', () => {
+  describe('15 - Mostre somente as horas (sem os minutos e os segundos) da `submitted_date` de todos registros de `purchase_orders`. Chame essa coluna de `submitted_hour`.', () => {
     it('Verifica o desafio15', async () => {
       const challengeQuery = readFileSync('desafio15.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult15');
@@ -91,7 +91,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe('16 - Exiba a `submitted_date` das `purchase_orders` que estão entre `2006-01-26 00:00:00` e `2006-03-31 23:59:59`.', () => {
+  describe.only('16 - Exiba a `submitted_date` das `purchase_orders` que estão entre `2006-01-26 00:00:00` e `2006-03-31 23:59:59`.', () => {
     it('Verifica o desafio16', async () => {
       const challengeQuery = readFileSync('desafio16.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult16');
