@@ -1,4 +1,1 @@
 SELECT * FROM northwind.products;
-
-
-
