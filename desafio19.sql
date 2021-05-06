@@ -1,5 +1,4 @@
-SELECT 
-    employee_id, shipper_id AS 'orders_count'
+SELECT COUNT(id) AS 'orders_count'
 FROM
     northwind.orders
 WHERE
